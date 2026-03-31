@@ -1,0 +1,18 @@
+services:
+  orchestrator:
+    build: .
+    container_name: lifeops-orchestrator
+    restart: unless-stopped
+    volumes:
+      - ./src:/app/src
+      # Mount the demo Obsidian vault
+      - ./data/obsidian_vault:/app/obsidian_vault
+      - ./token.json:/app/token.json
+      - ./data:/app/data
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
+      # Override the vault path to the mounted location inside the container
+      - OBSIDIAN_VAULT_PATH=/app/obsidian_vault
+    command: python -m src.main

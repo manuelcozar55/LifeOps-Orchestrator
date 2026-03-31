@@ -1,0 +1,23 @@
+# Variables de Entorno y Secretos
+.env
+auth_setup.py
+credentials.json
+token.json
+plantillasObsidian/
+
+# Entornos y Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# Base de datos (si aplicara temporal local)
+*.db
+*.sqlite3
+
+# IDES
+.vscode/
+.idea/

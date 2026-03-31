@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l src/**/*.py)",
+      "Read(//c/Users/ManuelCozarBaranguan/Downloads/LifeOps/**)",
+      "Read(//c/Users/ManuelCozarBaranguan/Downloads//**)",
+      "Read(//c/Users/ManuelCozarBaranguan/**)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/sse)",
+      "Bash(curl -s http://localhost:3000/api/elements)",
+      "Bash(curl -s -X DELETE http://localhost:3000/api/elements/clear)",
+      "Bash(python3 -m json.tool --no-ensure-ascii)",
+      "Bash(curl -s -X POST http://localhost:3000/api/elements/batch -H \"Content-Type: application/json\" -d @\"c:/Users/ManuelCozarBaranguan/Downloads/LifeOps Orchestrator/diagram_batch.json\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/export/image -H \"Content-Type: application/json\" -d '{\"\"format\"\": \"\"png\"\", \"\"background\"\": true}' -o \"c:/Users/ManuelCozarBaranguan/Downloads/LifeOps Orchestrator/architecture_diagram.png\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/elements/batch -H \"Content-Type: application/json\" -d @\"c:/Users/ManuelCozarBaranguan/Downloads/LifeOps Orchestrator/diagram_improved.json\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/export/image -H \"Content-Type: application/json\" -d '{\"\"format\"\": \"\"png\"\", \"\"scale\"\": 2, \"\"padding\"\": 40}' --output \"c:/Users/ManuelCozarBaranguan/Downloads/LifeOps Orchestrator/lifeops_architecture_v2.png\")",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/elements/batch -H \"Content-Type: application/json\" -d @\"C:/Users/ManuelCozarBaranguan/Downloads/LifeOps Orchestrator/diagram_professional.json\")",
+      "Bash(python3 -c \"import sys,json; r=json.load\\(sys.stdin\\); print\\(json.dumps\\(r, indent=2\\)[:800]\\)\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\ManuelCozarBaranguan\\.claude"
+    ]
+  }
+}
