@@ -423,4 +423,4 @@ LifeOps-Orchestrator/
 
 ---
 
-*LifeOps Orchestrator — Prueba técnica · Ingeniero/a de IA · Zebra AI Transformation Company*
+*LifeOps Orchestrator — Sistema multi-agente determinista para gestión de vida digital: Calendar, Gmail, Obsidian y Noticias. Orquestado con LangGraph, persistido en Supabase PostgreSQL y accesible vía Telegram. Diseñado como prueba técnica de Ingeniero/a de IA para Zebra AI Transformation Company.*
