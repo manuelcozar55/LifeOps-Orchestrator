@@ -1,11 +1,23 @@
-# Variables de Entorno y Secretos
+# ─── Secrets & Credentials ────────────────────────────────────────────────────
 .env
-auth_setup.py
 credentials.json
 token.json
-plantillasObsidian/
 
-# Entornos y Python
+# ─── Data generada (seed_obsidian.py la recrea) ───────────────────────────────
+data/obsidian_vault/noticias/
+data/obsidian_vault/proyectos/
+data/obsidian_vault/reuniones/
+data/obsidian_vault/tareas/
+data/obsidian_vault/archivo/
+data/obsidian_vault/inbox/
+data/news_cache.json
+
+# ─── Docs internos (no relevantes para el repo público) ──────────────────────
+docs/DEFENSA_TECNICA.md
+docs/SUPABASE_GUIDE.md
+docs/requirements_extracted.md
+
+# ─── Python ───────────────────────────────────────────────────────────────────
 __pycache__/
 *.pyc
 *.pyo
@@ -13,11 +25,19 @@ venv/
 env/
 .venv/
 .pytest_cache/
+*.egg-info/
+dist/
+build/
 
-# Base de datos (si aplicara temporal local)
+# ─── Bases de datos locales ───────────────────────────────────────────────────
 *.db
 *.sqlite3
 
-# IDES
+# ─── IDEs & Herramientas ──────────────────────────────────────────────────────
 .vscode/
 .idea/
+.claude/
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
