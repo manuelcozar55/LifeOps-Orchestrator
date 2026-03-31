@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-3776ab?style=for-the-badge&logo=python)](https://python.org)
 [![Tests](https://img.shields.io/badge/Tests-37%20passing-success?style=for-the-badge)](tests/test_agents.py)
 
-> Sistema multi-agente determinista para gestión de vida digital: Calendar, Gmail, Obsidian y Noticias. Orquestado con LangGraph, persistido en Supabase PostgreSQL y accesible vía Telegram. Diseñado como prueba técnica de Ingeniero/a de IA para Zebra AI Transformation Company.
+> Sistema multi-agente determinista para gestión de vida digital: Calendar, Gmail, Obsidian y Noticias. Orquestado con LangGraph, persistido en Supabase PostgreSQL y accesible vía Telegram.
 
 ---
 
