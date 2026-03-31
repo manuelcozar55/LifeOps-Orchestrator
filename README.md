@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="data/icon.png" alt="LifeOps Logo" width="1000"/>
+</p>
+
 # LifeOps Orchestrator — AI Multi-Agent System
 
 [![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-ff6b35?style=for-the-badge)](https://github.com/langchain-ai/langgraph)
