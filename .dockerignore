@@ -1,0 +1,20 @@
+# Ignorar secretos en el build stage de la imagen Docker para evitar que queden quemados en las capas.
+# Siempre pasaremos los secretos mediante variables de entorno (Compose) o bind mounts en run-time.
+.env
+credentials.json
+token.json
+
+# Ignorar archivos locales innecesarios
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+.pytest_cache/
+.vscode/
+README.md
+docs/
+auth_setup.py
